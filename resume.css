@@ -51,6 +51,22 @@ table td{
     display: grid;
     justify-content: end;
 }
+.adiv{
+    display: flex;
+    align-content: center;
+    padding-left: 300px;
+}
+.aa{
+    text-decoration: none;
+    box-shadow:  3px 3px 6px #4e4c4c,
+             -3px -3px 6px #797474;
+    background: linear-gradient(145deg, #e6e6e6, #ffffff);
+  border-radius: 20px;
+  height:30px;
+  width: 100px;
+  padding: 10px;
+  
+}
 @media screen and (max-width: 450px)  {
     .container{
     margin: auto;
